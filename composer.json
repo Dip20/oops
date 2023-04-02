@@ -1,0 +1,21 @@
+{
+    "name": "santu/oops",
+    "description": "This is my custom php framework",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Santu\\Oops\\": "src/"
+        },
+        "classmap": [
+            "app/",
+            "system"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Dip Sarkar",
+            "email": "info.dip.sarkar@gmail.com"
+        }
+    ],
+    "require": {}
+}
