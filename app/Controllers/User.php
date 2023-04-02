@@ -11,6 +11,6 @@ class User extends  BaseController
         // helper("Base");
         // echo parser("hello world");
 
-        echo view("index");
+        return view("index", array('name' => 'santu', "address" => "kolkata"));
     }
 }
